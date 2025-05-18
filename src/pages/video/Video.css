@@ -1,0 +1,46 @@
+.video-upload {
+    margin: 20px 20px 0;
+    padding: 20px;
+    background: #fff;
+}
+.video-upload .el-form {
+    display: flex;
+    justify-content: flex-start;
+}
+.el-form > .el-form-item {
+    margin: 0 20px 0 0;
+}
+.video {
+    padding: 20px;
+    display: flex;
+}
+.video-left {
+    flex: 1;
+    background-color: #fff;
+}
+.video-left video {
+    margin: 10px;
+    width: calc(100% - 20px);
+}
+
+.video-right {
+    margin: 0 0 0 20px;
+    padding: 10px;
+    width: 300px;
+    background-color: #fff;
+}
+.video-right ul {
+    list-style: none;
+    padding: 0;
+}
+.video-right ul > li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0 5px 5px;
+    border-bottom: 1px solid #e6e3e3;
+}
+.video-right ul > li:last-child {
+    border-bottom: none;
+}

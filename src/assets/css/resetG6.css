@@ -1,0 +1,10 @@
+/* 
+* G6
+* Grid Container
+*/
+.g6-grid-container {
+  position: absolute !important;
+  z-index: initial !important;
+  inset: initial !important;
+  overflow: hidden !important;
+}

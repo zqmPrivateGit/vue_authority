@@ -1,0 +1,25 @@
+.role {
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  .table,
+  .pannel {
+    background-color: #fff;
+  }
+  .table-header,
+  .pannel-header {
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #d9d9d9;
+    overflow: hidden;
+  }
+  .p-left {
+    margin: 0 10px;
+    float: left;
+  }
+  .el-input {
+    width: 100%;
+  }
+  .pannel-tree {
+    padding: 20px;
+  }

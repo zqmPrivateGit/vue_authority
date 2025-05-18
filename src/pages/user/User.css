@@ -1,0 +1,28 @@
+.user {
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  .table {
+    background-color: #fff;
+  }
+  .table-header {
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #d9d9d9;
+    overflow: hidden;
+  }
+  .p-left {
+    margin: 0 10px;
+    float: left;
+  }
+  .p-right {
+    margin: 0 10px;
+    float: right;
+  }
+  .el-input {
+    width: 100%;
+  }
+  .search-input {
+    width: 200px;
+    margin: 0 10px;
+  }

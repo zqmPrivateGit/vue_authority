@@ -1,0 +1,24 @@
+.wangEditor {
+    padding: 40px 20px 20px;
+}
+.toolbar {
+    border: 1px solid #ccc;
+}
+.glp {
+    overflow: hidden;
+}
+.contentUl {
+    float: left;
+    width: 200px;
+    height: 500px;
+    margin: 0 10px 0 0;
+    background: #fff;
+}
+.textarea textarea {
+    border: 1px solid #ccc
+}
+.text {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    height: 500px;
+}

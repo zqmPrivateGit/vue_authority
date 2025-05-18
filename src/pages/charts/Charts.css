@@ -1,0 +1,24 @@
+.charts{
+    box-sizing: border-box;
+    padding: 20px;
+}
+.chartsTop{
+   display: flex;
+   justify-content: space-between;
+}
+.chartsTop .chartCard {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    height: 300px;
+    width: calc(100% / 3 - 20px);
+}
+.chartBottom{
+     margin: 10px 0;
+}
+.chartScreen {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    height: 400px;
+}
