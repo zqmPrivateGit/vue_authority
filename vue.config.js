@@ -4,7 +4,7 @@ const { ElementPlusResolver } = require('unplugin-vue-components/resolvers')
 
 module.exports = {
     devServer: {
-        host: '192.168.111.9',
+        // host: '192.168.111.9',
         port:8011,
         open:true,
         proxy: {
