@@ -70,13 +70,13 @@
             </el-date-picker>
           </el-form-item>
           <el-form-item label="用户" prop="name">
-            <el-input v-model="form.name"></el-input>
+            <el-input v-model="form.name" placeholder="请输入用户名"></el-input>
           </el-form-item>
           <el-form-item label="账号" prop="account">
-            <el-input v-model="form.account"></el-input>
+            <el-input v-model="form.account" placeholder="请输入账号"></el-input>
           </el-form-item>
           <el-form-item label="密码"  prop="password" v-if="dialogTitle == '添加用户'">
-            <el-input type="password" v-model="form.password"></el-input>
+            <el-input type="password" v-model="form.password" placeholder="请输入密码"></el-input>
           </el-form-item>
           <el-form-item label="角色类型:" v-if="userType != 'admin'">
             <el-checkbox-group v-model="form.checkedList" @change="handleCheckAllChange">
