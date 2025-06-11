@@ -3,7 +3,7 @@ import store from './store.js';
 import App from './App.vue'
 //导出router实例
 import { createRouter, createWebHistory } from 'vue-router';
-import { routes } from './router/routes.js';
+import { routes } from '@/router';
 import ElementPlus from "element-plus";
 import locale from "element-plus/lib/locale/lang/zh-cn";
 
@@ -22,7 +22,7 @@ fundebug.apikey = "42a20705e4545857870565c0d907e74fd6a10258b6498420d2e7d92c6dab0
 //创建router实例
 const router = createRouter({
     history: createWebHistory(),
-    routes: routes
+    routes
 })
 
 app.use(ElementPlus, { locale })

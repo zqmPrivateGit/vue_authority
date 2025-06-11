@@ -1,5 +1,5 @@
 import { request } from "@/utils/request";
-import { menuRouter } from "../../router/routes";
+import { menuRouter } from "@/router";
 export default {
   name: "Admin",
   data: function() {

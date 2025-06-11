@@ -1,9 +1,9 @@
-import iframeRouter from '../iframe/configRouter';
+import iframeRouter from '@/iframe/configRouter';
 //菜单
 export const menuRouter = {
   path: "/",
   name: "admin",
-  component: () => import('./pages/admin/Admin.vue'),
+  component: () => import('@/pages/admin/Admin.vue'),
   children: [
     ...iframeRouter,
     {
@@ -12,7 +12,7 @@ export const menuRouter = {
       icon: "icon-location",
       title: "地图引擎",
       meta: { breamub: '地图引擎' },
-      component: () => import('./pages/amap/Amap.vue'),
+      component: () => import('@/pages/amap/Amap.vue'),
     },
     {
       path: "/charts",
@@ -20,7 +20,7 @@ export const menuRouter = {
       icon: "icon-odometer",
       title: "图表引用",
       meta: { breamub: '图表引用' },
-      component: () => import('./pages/charts/Charts.vue'),
+      component: () => import('@/pages/charts/Charts.vue'),
     },
     {
       path: "/video",
@@ -28,7 +28,7 @@ export const menuRouter = {
       icon: "icon-camera",
       title: "视频管理",
       meta: { breamub: '视频管理' },
-      component: () => import('./pages/video/Video.vue'),
+      component: () => import('@/pages/video/Video.vue'),
     },
     {
       path: "/wangEditor",
@@ -36,7 +36,7 @@ export const menuRouter = {
       icon: "icon-edit-square",
       title: "文本编辑",
       meta: { breamub: '文本编辑' },
-      component: () => import('./pages/wangEditor/WangEditor.vue'),
+      component: () => import('@/pages/wangEditor/WangEditor.vue'),
     },
     {
       path: "/webSocket",
@@ -44,7 +44,7 @@ export const menuRouter = {
       icon: "icon-monitor",
       title: "即时通信",
       meta: { breamub: '即时通信' },
-      component: () => import('./pages/webSocket/WebSocket.vue'),
+      component: () => import('@/pages/webSocket/WebSocket.vue'),
     },
     {
       path: "/authority",
@@ -58,26 +58,26 @@ export const menuRouter = {
           name: "user",
           title: "用户管理",
           meta: { breamub: '用户管理' },
-          component: () => import('./pages/user/User.vue'),
+          component: () => import('@/pages/user/User.vue'),
         },
         {
           path: "/role",
           name: "role",
           title: "角色管理",
           meta: { breamub: '角色管理' },
-          component: () => import('./pages/role/Role.vue'),
+          component: () => import('@/pages/role/Role.vue'),
         },
         {
           path: "/menu",
           name: "menu",
           title: "菜单管理",
           meta: { breamub: '菜单管理' },
-          component: () => import('./pages/menu/Menu.vue'),
+          component: () => import('@/pages/menu/Menu.vue'),
         },
       ],
     },
     {
-      path: "/dragTool",
+      path: "/dragTool",  // 拖拽工具
       name: "dragTool",
       icon: "icon-keshihua",
       title: "拖拽工具",
@@ -88,14 +88,14 @@ export const menuRouter = {
           name: "flowDesign",
           title: "流程设计",
           meta: { breamub: '流程设计' },
-          component: () => import('./pages/flowDesign/FlowDesign.vue'),
+          component: () => import('@/pages/flowDesign/FlowDesign.vue'),
         },
         {
           path: '/formDesign',
           name: "formDesign",
           title: "表单设计",
           meta: { breamub: '表单设计' },
-          component: () => import('./pages/formDesign/FormDesign.vue'),
+          component: () => import('@/pages/formDesign/FormDesign.vue'),
         }
       ],
     },
@@ -111,14 +111,14 @@ export const menuRouter = {
           name: "market",
           title: "营销活动",
           meta: { breamub: '营销活动' },
-          component: () => import('./pages/market/Market.vue'),
+          component: () => import('@/pages/market/Market.vue'),
         },
         {
           path: '/openai',
           name: "openai",
           title: "智能对话",
           meta: { breamub: '智能对话' },
-          component: () => import('./pages/openai/Openai.vue'),
+          component: () => import('@/pages/openai/Openai.vue'),
         }
       ]
     }
@@ -130,17 +130,17 @@ export const noMangeRouter = [
   {
     path: "/login",
     name: "login",
-    component: () => import('./pages/login/Login.vue'),
+    component: () => import('@/pages/login/Login.vue'),
   },
   {
     path: "/error",
     name: "error",
-    component: () => import('./pages/error/Error.vue'),
+    component: () => import('@/pages/error/Error.vue'),
   },
   {
     path: "/qrcode",
     name: "qrcode",
-    component: () => import('./pages/weixin/Qrcode.vue')
+    component: () => import('@/pages/weixin/Qrcode.vue')
   }
 ];
 

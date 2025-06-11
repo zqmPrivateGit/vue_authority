@@ -14,6 +14,7 @@ export default {
 @import url('./assets/css/resetG6.css');
 html,body{
   margin: 0;
+  height: 100%;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -29,5 +30,8 @@ html,body{
 }
 .amap-logo , .amap-copyright{
     visibility: hidden !important;
+}
+::-webkit-scrollbar {
+  display: none;
 }
 </style>
