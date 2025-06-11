@@ -1,4 +1,4 @@
-import iframeRouter from './iframe/configRouter';
+import iframeRouter from '../iframe/configRouter';
 //菜单
 export const menuRouter = {
   path: "/",

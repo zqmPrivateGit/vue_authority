@@ -3,7 +3,7 @@ import store from './store.js';
 import App from './App.vue'
 //导出router实例
 import { createRouter, createWebHistory } from 'vue-router';
-import { routes } from './routes';
+import { routes } from './router/routes.js';
 import ElementPlus from "element-plus";
 import locale from "element-plus/lib/locale/lang/zh-cn";
 
